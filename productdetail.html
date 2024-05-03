@@ -67,20 +67,28 @@
 <body class="bg-gray-200 ">
 
 <!-- Product Detail -->
-<div class="max-w-screen-xl mx-auto py-8 ">
+<div class="max-w-screen-xl mx-auto ">
     <div class="flex flex-col md:flex-row space-x-4 mt-8">
-        <div class="w-full md:w-1/2">
-            <img src="images/magnesium1.PNG" alt="product" class="w-full">
+        <div class="w-full md:w-1/2 group relative">
+            <!-- Main image -->
+            <div class="w-full h-full bg-center bg-cover transition duration-300 transform group-hover:scale-110 opacity-100 group-hover:opacity-0"
+                 style="background-image: url('images/mgstart.gif');"></div>
+            <!-- GIF image (initially hidden) -->
+            <div class="w-full h-full absolute inset-0 bg-center bg-cover transition duration-300 transform scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100"
+                 style="background-image: url('images/mg.gif');"></div>
         </div>
-        <div class="w-full md:w-1/2">
+
+
+
+        <div class="w-full md:w-1/2 px-3 self-center mb-20">
             <h1 class="inconsolata-bold animated-gradient text-4xl mt-4">Magnesium</h1>
-            <p class="inconsolata-regular text-lg mt-4 max-w-md">Magnesium is a vital mineral crucial for bone health,
+            <p class="inconsolata-regular text-lg mt-4 max-w-xs">Magnesium is a vital mineral crucial for bone health,
                 muscle function, and energy production. While found in various foods like leafy greens and nuts,
                 supplementation may be necessary for those with inadequate intake or specific medical conditions.
             </p>
             <p class="inconsolata-bold text-2xl mt-8">Price: 20,22 €</p>
 
-            <div class="btn-group classic rounded-lg h-12 max-w-xs flex mt-4 mb-4" data-toggle="buttons">
+            <div class="btn-group classic rounded-lg h-12 max-w-xs flex mt-4 mb-4 justify-center" data-toggle="buttons">
                 <input id="option-1" type="radio" name="test-toggle" checked="checked">
                 <label for="option-1"
                        class="btn btn-default-toggle-ghost active w-full flex items-center justify-center rounded-l-lg">
