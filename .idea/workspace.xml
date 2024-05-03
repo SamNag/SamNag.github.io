@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="add login and homepage done">
+    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="gif all">
+      <change afterPath="$PROJECT_DIR$/images/mgstart.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3dgifmaker28954.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/3dgifmaker28954.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/mg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/magnesium1.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/productdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/productdetail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +57,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel\Desktop\flakes\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Samuel\Desktop\flakes\images" />
       <recent name="C:\Users\Samuel\Desktop\flakes" />
@@ -82,7 +87,7 @@
       <workItem from="1714646119663" duration="10674000" />
       <workItem from="1714737394192" duration="896000" />
       <workItem from="1714749123374" duration="975000" />
-      <workItem from="1714751789984" duration="1743000" />
+      <workItem from="1714751789984" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="add login and homepage done">
       <option name="closed" value="true" />
@@ -100,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714737424708</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gif all">
+      <option name="closed" value="true" />
+      <created>1714754797563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714754797563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add login and homepage done" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login and homepage done" />
+    <MESSAGE value="gif all" />
+    <option name="LAST_COMMIT_MESSAGE" value="gif all" />
   </component>
 </project>
