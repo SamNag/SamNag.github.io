@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="gif all2">
+    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="products page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mgstart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/productdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.homepage.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.productdetail.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Samuel/Desktop/flakes/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.home.html.executor": "Run",
+    "JavaScript Debug.homepage.html.executor": "Run",
+    "JavaScript Debug.productdetail.html.executor": "Run",
+    "JavaScript Debug.products.html.executor": "Run",
+    "JavaScript Debug.register.html.executor": "Run",
+    "JavaScript Debug.test.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Samuel/Desktop/flakes/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Samuel\Desktop\flakes\images" />
@@ -90,7 +86,7 @@
       <workItem from="1714737394192" duration="896000" />
       <workItem from="1714749123374" duration="975000" />
       <workItem from="1714751789984" duration="2432000" />
-      <workItem from="1714834664462" duration="7524000" />
+      <workItem from="1714834664462" duration="9212000" />
     </task>
     <task id="LOCAL-00001" summary="add login and homepage done">
       <option name="closed" value="true" />
@@ -124,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714755012328</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="products page">
+      <option name="closed" value="true" />
+      <created>1714848454829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714848454829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +138,7 @@
     <MESSAGE value="add login and homepage done" />
     <MESSAGE value="gif all" />
     <MESSAGE value="gif all2" />
-    <option name="LAST_COMMIT_MESSAGE" value="gif all2" />
+    <MESSAGE value="products page" />
+    <option name="LAST_COMMIT_MESSAGE" value="products page" />
   </component>
 </project>
