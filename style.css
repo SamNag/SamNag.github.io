@@ -70,4 +70,6 @@ input[type=radio]:checked+label{
     background: rgb(229 231 235);
     box-shadow: inset -3px 3px 6px #aaaaaa,
     inset 5px -5px 10px #ffffff;
+    color: #000000;
+
 }
