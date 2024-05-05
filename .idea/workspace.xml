@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="fixes">
+    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="add page icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +59,8 @@
       <recent name="C:\Users\Samuel\Desktop\flakes\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Samuel\Desktop\flakes\images" />
       <recent name="C:\Users\Samuel\Desktop\flakes" />
+      <recent name="C:\Users\Samuel\Desktop\flakes\images" />
       <recent name="C:\Users\Samuel\Desktop\flakes\html" />
     </key>
   </component>
@@ -87,7 +87,8 @@
       <workItem from="1714749123374" duration="975000" />
       <workItem from="1714751789984" duration="2432000" />
       <workItem from="1714834664462" duration="10114000" />
-      <workItem from="1714914904017" duration="318000" />
+      <workItem from="1714914904017" duration="471000" />
+      <workItem from="1714951384419" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="add login and homepage done">
       <option name="closed" value="true" />
@@ -137,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714859043507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add page icon">
+      <option name="closed" value="true" />
+      <created>1714915364659</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714915364659</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +158,7 @@
     <MESSAGE value="gif all2" />
     <MESSAGE value="products page" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="add page icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page icon" />
   </component>
 </project>

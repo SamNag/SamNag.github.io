@@ -47,33 +47,36 @@
 
     <nav class="bg-gray-200 md:hidden px-4">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between">
-            <a href="home.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="home.html" class="flex items-center space-x-3 rtl:space-x-reverse mr-2">
                 <span class="passion-one-bold animated-gradient text-4xl">Flakes</span>
             </a>
+            <div class="flex items-center justify-between flex-grow"> <!-- Set flex-grow to allow the search bar to occupy remaining space -->
+                <form class="md:block flex items-center mr-2 flex-grow"> <!-- Set flex-grow to allow the search bar to occupy remaining space -->
+                    <label for="simple-search" class="sr-only">Search</label>
+                    <div class="relative w-full " > <!-- Set width to full to occupy remaining space -->
+                        <input type="text" id="simple-search-mobile"
+                               class="text-gray-700 border bg-gray-200 rounded-lg focus:outline-gray-100 border-gray-300 h-10 p-2.5 w-full "
+                               placeholder="Search product name..."  />
+                    </div>
+                    <button type="submit" class="classic-clicked rounded-lg min-w-10 h-10 ml-2">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #666666;"></i>
+                    </button>
+                </form>
 
-            <form class="md:block flex items-center">
-                <label for="simple-search" class="sr-only">Search</label>
-                <div class="relative">
-                    <input type="text" id="simple-search-mobile"
-                           class="text-gray-700 border bg-gray-200 rounded-lg focus:outline-gray-100 border-gray-300 h-10 p-2.5"
-                           placeholder="Search product name..." required style="max-width: 300px;"/>
-                </div>
-                <button type="submit" class="classic-clicked rounded-lg w-10 h-10 mr-2 ml-2">
-                    <i class="fa-solid fa-magnifying-glass" style="color: #666666;"></i>
+                <button data-collapse-toggle="navbar-default" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden "
+                        aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                         viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
                 </button>
-            </form>
-
-            <button data-collapse-toggle="navbar-default" type="button"
-                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden "
-                    aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                     viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
+            </div>
         </div>
+
+
         <div class="hidden w-full md:block md:w-auto items-center" id="navbar-default">
             <ul class="font-medium flex flex-col items-center p-4 md:p-0 mt-4 b bg-gray-200 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-gray-200 ">
                 <li><a href="products.html" class="inconsolata-regular hover:text-gray-500 text-xl">Products</a></li>
@@ -88,7 +91,7 @@
 
 
 <body class="bg-gray-200">
-<div class="max-w-screen-xl mx-auto">
+<div class="max-w-screen-xl mx-auto mb-10">
     <div class="btn-group classic rounded-lg h-12 max-w-xxl flex mt-4 mb-4 justify-center ml-3 mr-3 mb-10"
          data-toggle="buttons">
         <input id="option-1" type="radio" name="test-toggle" checked="checked">
