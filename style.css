@@ -73,3 +73,41 @@ input[type=radio]:checked+label{
     color: #000000;
 
 }
+
+/* styles.css */
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 0.3rem;
+    border-radius: 0.5rem;
+    background: rgb(229 231 235); /* Track color */
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    box-shadow: inset -3px 3px 6px #aaaaaa,
+    inset 5px -5px 10px #ffffff;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: rgb(229 231 235); /* Thumb color */
+    cursor: pointer;
+    box-shadow:  -5px 5px 10px #aaaaaa,
+    5px -5px 10px #ffffff;
+
+}
+
+.slider::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: rgb(229 231 235); /* Thumb color */
+    cursor: pointer;
+    box-shadow:  -5px 5px 10px #aaaaaa,
+    5px -5px 10px #ffffff;
+}
