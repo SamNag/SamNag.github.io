@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="add responsive searchbar">
+    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="sm changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
@@ -38,6 +38,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.homepage.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.product-detail.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.productdetail.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.products.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,
@@ -89,7 +90,9 @@
       <workItem from="1714751789984" duration="2432000" />
       <workItem from="1714834664462" duration="10114000" />
       <workItem from="1714914904017" duration="471000" />
-      <workItem from="1714951384419" duration="2297000" />
+      <workItem from="1714951384419" duration="2974000" />
+      <workItem from="1715073191724" duration="1994000" />
+      <workItem from="1715346128698" duration="4196000" />
     </task>
     <task id="LOCAL-00001" summary="add login and homepage done">
       <option name="closed" value="true" />
@@ -155,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714953173101</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sm changes">
+      <option name="closed" value="true" />
+      <created>1714953833980</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714953833980</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +180,7 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="add page icon" />
     <MESSAGE value="add responsive searchbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="add responsive searchbar" />
+    <MESSAGE value="sm changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="sm changes" />
   </component>
 </project>
