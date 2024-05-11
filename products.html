@@ -28,7 +28,7 @@
                        class="text-gray-700 border bg-gray-200 rounded-lg focus:outline-gray-100 border-gray-300 block h-10 p-2.5"
                        placeholder="Search product name..." required style="width: 300px;"/>
             </div>
-            <button type="submit" class="classic-clicked rounded-lg w-10 h-10 ml-2">
+            <button type="submit" class=" bg-gray-200 rounded-lg  min-w-10 h-10 ml-2">
                 <i class="fa-solid fa-magnifying-glass fa-md" style="color: #666666;"></i>
             </button>
         </form>
@@ -60,7 +60,7 @@
                                class="text-gray-700 border bg-gray-200 rounded-lg focus:outline-gray-100 border-gray-300 h-10 p-2.5 w-full "
                                placeholder="Search product name..."/>
                     </div>
-                    <button type="submit" class="classic-clicked rounded-lg min-w-10 h-10 ml-2">
+                    <button type="submit" class="bg-gray-200 rounded-lg  min-w-10 h-10 ml-2">
                         <i class="fa-solid fa-magnifying-glass" style="color: #666666;"></i>
                     </button>
                 </form>
@@ -129,20 +129,20 @@
         </div>
         <div data-collapse="animated-collapse-2" class="h-0 overflow-hidden transition-all duration-300 ease-in-out">
             <div class="flex flex-wrap ml-3 mr-3 items-center justify-between max-w-screen-2xl">
-                <div class="w-full sm:w-1/3">
-                    <select id="sort-select" class="text-gray-400 bg-gray-200 rounded-lg  h-10 classic-clicked p-2 ">
-                        <option value="alphabet-asc">Alphabet (A-Z)</option>
-                        <option value="alphabet-desc">Alphabet (Z-A)</option>
-                        <option value="price-asc">Price (Low to High)</option>
-                        <option value="price-desc">Price (High to Low)</option>
-                    </select>
-                </div>
-                <div class="w-full sm:w-1/3 pt-5 pb-3">
+                <div class="w-full lg:w-1/3 sm:w-1/2   ">
                     <input type="range" id="price-range" class="w-full slider" min="0" max="100" value="100" oninput="updatePrice(this.value)">
                     <div class="flex justify-between text-gray-400">
                         <span id="minPrice">$0</span>
                         <span id="maxPrice">$100</span>
                     </div>
+                </div>
+                <div class="w-1/2 lg:w-1/6 sm:w-1/4 pt-3 pb-3">
+                    <select id="sort-select" class="text-gray-400 bg-gray-200 rounded-lg w-full h-10 p-2 ">
+                        <option value="alphabet-asc">Alphabet (A-Z)</option>
+                        <option value="alphabet-desc">Alphabet (Z-A)</option>
+                        <option value="price-asc">Price (Low to High)</option>
+                        <option value="price-desc">Price (High to Low)</option>
+                    </select>
                 </div>
             </div>
         </div>
