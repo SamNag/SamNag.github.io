@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="dropdown add filter">
+    <list default="true" id="c0450b4e-0f51-4512-abd9-c806a6c28ce1" name="Changes" comment="dropdown filter change,&#10;finally detail fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,7 @@
       <workItem from="1715352334180" duration="1919000" />
       <workItem from="1715358632832" duration="1767000" />
       <workItem from="1715364821656" duration="766000" />
-      <workItem from="1715416902929" duration="693000" />
+      <workItem from="1715416902929" duration="2107000" />
     </task>
     <task id="LOCAL-00001" summary="add login and homepage done">
       <option name="closed" value="true" />
@@ -193,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715360409945</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dropdown filter change,&#10;finally detail fix">
+      <option name="closed" value="true" />
+      <created>1715417886166</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715417886166</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +224,7 @@
     <MESSAGE value="add some filterssda" />
     <MESSAGE value="dropdown add" />
     <MESSAGE value="dropdown add filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropdown add filter" />
+    <MESSAGE value="dropdown filter change,&#10;finally detail fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="dropdown filter change,&#10;finally detail fix" />
   </component>
 </project>
